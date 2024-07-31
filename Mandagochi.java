@@ -8,7 +8,7 @@ public class Mandagochi {
         hungriness = 0;
         tiredness = 0;
         happiness = 5;
-        cleanness = 0;
+        cleanness = 10;
     }
 
     public void passtime() {
@@ -52,7 +52,7 @@ public class Mandagochi {
     public String getMood() { 
 
         if(tiredness > 7) {
-            if(cleanness > 7) {
+            if(cleanness <3) {
                 return "is tired, but needs a bath first";
             } else {
                 return "is tired and is going to take a nap";
@@ -69,7 +69,7 @@ public class Mandagochi {
 
         if(happiness > 7) {
             return "is happy";
-        } else if ( happiness > 4) {
+        } else if ( happiness >= 4) {
             return "is okay";
         } else {
             return "is sad";
