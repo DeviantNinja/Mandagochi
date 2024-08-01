@@ -16,6 +16,18 @@ Simple pet class with simple game loop functionality
 - get current mood
 - pass time increase/decrease statuses
 - game loop
+
+#### Stage 1 Alternative Stacagochi (modled after another annoying employee)
+Virtual Pet who is constantly in need of attention
+
+when you are not paying attnetion to the pet it will keep sending you notifications with bad jokes/questions/stories to get your attention, when you pay attention to it, it just tells stupid awful jokes badly, tells you how much it likes this song, ask you what you had for dinner, tells you about its latest drama. 
+
+only stat would be neediness which has a level of between 1-100, Starts with 50, needieness increases with idle time. 
+- Talk to
+- Praise
+- feed
+- Be Quite //you can tell it to be quiet for a set amount of time, but it will randomly send you notifcations (less frequently) but when you pay attention to it, it will say oops i was supposed to be quiet
+
   
 ### Stage 2 - basic gui not pretty but functional
 add simple gui with basic non animated images
