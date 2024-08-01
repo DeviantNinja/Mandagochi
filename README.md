@@ -1,7 +1,8 @@
 # Mandagochi
 A twist on a Tamagotchi where you keep a horrible boss
 
-using this to put ideas as im thinking about them in work lol, probs not what a readme is for but whate ver works for me :) so guess its the desing doc
+This is just me learning Java in a less boring way than tutorails in my free time, please dont take anyting seen here seriously i have no idea what im doing :)
+using this to put ideas as im thinking about them in work lol, probs not what a readme is for but whatever works for me :) so guess its the desing doc
 
 # Project Stages
 
