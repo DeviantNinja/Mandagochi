@@ -17,6 +17,9 @@ Simple pet class with simple game loop functionality
 - pass time increase/decrease statuses
 - game loop
 
+Things i need to learn
+- some sort of timing mechanic
+
 #### Stage 1 Alternative Stacagochi (modled after another annoying employee)
 Virtual Pet who is constantly in need of attention
 
@@ -33,22 +36,36 @@ only stat would be neediness which has a level of between 1-100, Starts with 50,
 add simple gui with basic non animated images
 - Buttons for actions
 - simple text or images for pet state based on actions and pet mood 
-- some sort of status display to show happiness levels 
+- some sort of status display to show happiness levels
+
+Things i need to learn
+- basic GUI AWT/Swing
 
 ### Stage 3 - add in Task Management
 - Task 
-- Task Manager 
+- Task Manager
+
+Things i need to learn
+- Some sort of collections/list that would fit this requirement
+- Collection manipulation, Adding/removing
+- using multiple timers
 
 ### Stage 4 - add in data percistance database/text file save?
 
+Things i need to learn
+- writng/reading to files or database
 
 ### Stage 5 - add in player status and frustration level mechanic
 
 
 ### Stage 6 - improve gui design and animiations 
+Things i need to learn
+- more advanced Gui/Animiations
 
 ### Stage 7 - Polish Polish Polish 
-
+Things i need to learn
+- everything better.
+  
 ### Notes on game design
 
 ### Game Loop
