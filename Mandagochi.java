@@ -5,6 +5,9 @@ public class Mandagochi {
     private int cleanness;
 
     public Mandagochi() {
+
+        System.out.println("Mandagochi Started");
+
         hungriness = 0;
         tiredness = 0;
         happiness = 5;
@@ -12,8 +15,8 @@ public class Mandagochi {
 
         long startTime = System.currentTimeMillis();
 
-        while(true) {
-            long duration = (System.currentTimeMillis() - startTime);
+/*         while(true) {
+            long duration = (System.currentTimeMillis() - startTime) / 1000;
 
             if(duration > 30){
                 System.out.println("tick");
@@ -21,7 +24,7 @@ public class Mandagochi {
                 startTime = System.currentTimeMillis();
             }
 
-        }
+        } */
     }
 
     public void passtime() {
@@ -29,6 +32,14 @@ public class Mandagochi {
         cleanness -= 2;
         tiredness += 1;
         hungriness += 2;
+    }
+
+    public void getStats(){
+        System.out.println("hungriness: "+ hungriness);
+        System.out.println("tiredness: "+ tiredness);
+        System.out.println("happiness: "+ happiness);
+        System.out.println("cleanness: "+ cleanness);
+
     }
 
     public void play() {
