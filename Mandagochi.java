@@ -9,6 +9,19 @@ public class Mandagochi {
         tiredness = 0;
         happiness = 5;
         cleanness = 10;
+
+        long startTime = System.currentTimeMillis();
+
+        while(true) {
+            long duration = (System.currentTimeMillis() - startTime);
+
+            if(duration > 30){
+                System.out.println("tick");
+                passtime();
+                startTime = System.currentTimeMillis();
+            }
+
+        }
     }
 
     public void passtime() {
