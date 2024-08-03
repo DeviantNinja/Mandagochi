@@ -10,10 +10,20 @@ public class Game {
     
         boss = new Mandagochi();
         
-        boss.getStats();
-        System.out.println(boss.getMood());
+/*         while(true) {
+            boss.getStats();
+            System.out.println(boss.getMood());
 
+            ;
+        } */
+        while (true) {
+            boss.fixStats();
+            boss.getStats();
+            menu();  
+            System.out.println("********");
+        }
         
+
     }
 
     private void menu(){
@@ -29,28 +39,32 @@ public class Game {
         System.out.print("Please Choose: ");
 
         while (question != 1 && question != 2 && question != 3) {
-
+            
             while(!input.hasNextInt()) {
                 System.out.print("try Again: ");
                 input.next();
             }
+            System.out.println("while start "+question);
 
             question = input.nextInt();
-            input.close();
+          
         }
 
-
+        //input.close();
 
         if(question == 1) {
             boss.play();
+            System.out.println("played");
         } 
             
         if (question == 2) {
             boss.giveSnack();
+            System.out.println("ate");
         } 
             
         if (question ==3) {
             boss.clean();
+            System.out.println("cleaned");
         } 
 
     }

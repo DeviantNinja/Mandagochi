@@ -28,3 +28,20 @@ working on stage 1 at the moment and i've had a number of issues most of them in
 
 If this is true i exepct the same issue will happen with a console menu waiting for entry will block the check of the current time vs the last updated time. I have no idea how i could get around this. Based on the limted stuff i have read and watched on yourtube, this seems to be handled much better when using a GUI due to action listeners. not sure how i can progress from here :| oh well im going to take a break and will be back. Guess i will need to look at another solution :) 
 
+okay took a break and did some research and it seems that timer and timer task does what i need it too, not sure this is the best way to do it, but it works. 
+
+```
+        TimerTask gameTask = new TimerTask() {
+
+            @Override
+            public void run() {
+                passtime();
+            }
+            
+        };
+
+        Timer gameLoop = new Timer();
+
+        gameLoop.scheduleAtFixedRate(gameTask, 0, 1000 * 10);
+```
+
