@@ -58,6 +58,34 @@ May put a placeholder textbox as the the image, so i can update the pet state, P
 
 ###### 04/08/204
 
-Playing with GUI's in java is a learing curve to be sure, but im starting to get the hang of it, not sure what the best way to do things are but i've got a basic layout
+Playing with GUI's in java is a learing curve to be sure, but im starting to get the hang of it, not sure what the best way to do things are but i've got a basic layout. Its definitly not pretty but it works :) 
 
-![basic layout image]
+Next Event Listeners so when i click a button an action is preformed, and then linking it to the basic model from stage 1.
+
+okay so the event listeners were easier than i expected, so was the gui  i expanded the stage 2 steps to work on this week by the end of this stage i would like a fully fucntioning super basic pet.
+
+im not 100% sure what i want the basic pet to do currently mapped some thoughts below.
+
+- Stage 2 - basic gui not pretty but functional
+    - Create a basic Gui
+        - pet screen
+        - buttons to interact with pet
+        - stats screen
+    - Add Event Listeners
+        - Play
+        - Clean
+        - Feed
+    - write a fully functional basic pet class 
+        - Methods
+            - Play
+            - Clean
+            - feed
+            - gameTick 
+            - getHappiness
+            - getTiredness
+            - getCleanness
+            - getHungriness
+            
+    - create a simple game loop to adjust stats periodicly
+    - create timers for the buttons so that they cant be used to frequently
+    - create a state manager to say how the pet is feeling, update temp images, happy, sad, dirty, sleepy etc. 
