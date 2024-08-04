@@ -16,7 +16,7 @@ The main mechanic of the game will be a task list that you have to try and manag
 
 came up with a number of ideas for the project as discussed in the project idea above many which i think will be added in future weeks as they may be a little ambitious given how little i know, but i expect i just need to break it down so i laid out a road map as shown below. 
 
-- Stage 1 - super simple pet functionalty
+- Stage 1 - super simple pet functionalty (console)
 - Stage 2 - basic gui not pretty but functional
 - Stage 3 - add in Task Management
 - Stage 4 - add in data percistance database/text file save?
@@ -45,3 +45,19 @@ okay took a break and did some research and it seems that timer and timer task d
         gameLoop.scheduleAtFixedRate(gameTask, 0, 1000 * 10);
 ```
 
+while the its not fully tested, and defintily not fun to play figuring out some of the stuff was fun. Given that its intended final form is never going to be console based theres not much point in continuing the console version. got alot of the basic elemetns working so im happy enough with the progress i made coding it over the last couple of days. still a few things i dont really understand well and im sure there will be many more.
+
+onto stage 2 tomorrow. 
+
+##### stage 2 - basic gui
+
+I think the basic gui is going to be a phone screen style Jframe say 400x800, a large display window that would display the pet when i eventaully get to the point with 3 or 4 buttons across the bottom which will control the various actions and some visable way to see the pets stats so you know what it needs. 
+
+May put a placeholder textbox as the the image, so i can update the pet state, Playing, Eating, Sleeping etc. 
+
+
+###### 04/08/204
+
+Playing with GUI's in java is a learing curve to be sure, but im starting to get the hang of it, not sure what the best way to do things are but i've got a basic layout
+
+![basic layout image]
