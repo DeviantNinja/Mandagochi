@@ -9,6 +9,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.Timer;
 
 
 public class Stage2Main {
@@ -16,6 +17,10 @@ public class Stage2Main {
     public static void main(String[] args)
     {
         Pet pet = new Pet();
+
+        
+
+    
 
         JFrame frame = new JFrame("title");
 
@@ -112,6 +117,24 @@ public class Stage2Main {
             }
             
         });
+
+        ActionListener gameLoop = new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                pet.gameTick();
+                happiness.setText("Happiness: " + pet.getHappiness());
+                hungriness.setText("Hungriness: " + pet.getHungriness());
+                tiredness.setText("Tiredness: " + pet.getTiredness());
+                cleanness.setText("Cleanness: " + pet.getCleanness());
+            }
+            
+        };
+
+        Timer gameLoopTimer = new Timer(5000, gameLoop);
+        gameLoopTimer.start();
+
+        
 
     }
 }

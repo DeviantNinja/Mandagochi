@@ -24,6 +24,29 @@ public class Pet {
         return happiness;
     }
 
+    public void gameTick(){
+        happiness--;
+        hungriness++;
+        tiredness++;
+        cleanness--;
+
+        if(tiredness > 10) {
+            tiredness = 10;
+        }
+
+        if(happiness > 10) {
+            happiness = 10;
+        }
+
+        if(cleanness < 0) {
+            cleanness = 0;
+        }
+
+        if(hungriness > 10) {
+            hungriness = 10;
+        }
+    }
+
     public void play(){
         tiredness++;
         happiness++;
