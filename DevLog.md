@@ -89,3 +89,9 @@ im not 100% sure what i want the basic pet to do currently mapped some thoughts 
     - create a simple game loop to adjust stats periodicly
     - create timers for the buttons so that they cant be used to frequently
     - create a state manager to say how the pet is feeling, update temp images, happy, sad, dirty, sleepy etc. 
+
+###### 05/08/2024
+
+Not much time today but i didnt want to do nothing so i added the game loop which seems to work along with the other action listeners. Also started looking for some game spirtes so i can put some simple animations in place for the actions which sould make it a little less boring to look at while im working on other stuff. Also started to wonder how i could make the task list tasks not sure im going to be able to make it all pretty like id want, but id be happy just making something that functions how i imagine it. and so far so good but lots to go :)
+
+I've got most of stage 2 completed, need to add in some timers to prevetn the buttons being spammed and a basic state manager. and maybe look at doing some animated sprites to show the mood. I think task management will be next weekend. 
